@@ -19,6 +19,9 @@
   	<string name="pref_threat_difficulty_summary">Cumulative threat for the mission. (Normal=1, Serious=2)</string>
   	<string name="mission_about">About</string>
   	<string name="mission_help">Help</string>
+  	
+  	<string name="btn_play_on">Playing</string>
+  	<string name="btn_play_off">Paused</string>
 
 	<string name="mission_random">Random</string>
   	<string name="mission_first_test_run">First Test Run</string>
