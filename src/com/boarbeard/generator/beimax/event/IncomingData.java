@@ -37,7 +37,7 @@ public class IncomingData implements Event {
 	 */
 	@Override
 	public String toString() {
-		return "Incoming data.";
+		return "Eingehende Daten.";
 	}
 
 	/* (non-Javadoc)

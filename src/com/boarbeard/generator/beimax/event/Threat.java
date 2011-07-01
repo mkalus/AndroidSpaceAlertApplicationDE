@@ -145,25 +145,25 @@ public class Threat implements Event {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		// unconfirmed wrapper?
-		if (!confirmed) sb.append("[Unconfirmed: ");
+		if (!confirmed) sb.append("[Unbestätigt: ");
 		// add time
-		sb.append("Time T+").append(time).append(". ");
+		sb.append("Zeit T+").append(time).append(". ");
 		// internal/external?
 		if (threatPosition == THREAT_POSITION_INTERNAL) {
 			if (threatLevel == THREAT_LEVEL_SERIOUS) {
-				sb.append("Serious internal threat");
-			} else sb.append("Internal threat");
+				sb.append("Ernsthafte interne Bedrohung");
+			} else sb.append("Interne Bedrohung");
 		} else if (threatLevel == THREAT_LEVEL_SERIOUS) {
-			sb.append("Serious threat");
-		} else sb.append("Threat");
+			sb.append("Ernsthafte Bedrohung");
+		} else sb.append("Bedrohung");
 		sb.append('.');
 		if (threatPosition != THREAT_POSITION_INTERNAL) {
 			sb.append(" Zone ");
 			switch (sector) {
-			case THREAT_SECTOR_BLUE: sb.append("blue"); break;
-			case THREAT_SECTOR_WHITE: sb.append("white"); break;
-			case THREAT_SECTOR_RED: sb.append("red"); break;
-			default: sb.append("unknown");
+			case THREAT_SECTOR_BLUE: sb.append("Blau"); break;
+			case THREAT_SECTOR_WHITE: sb.append("Weiß"); break;
+			case THREAT_SECTOR_RED: sb.append("Rot"); break;
+			default: sb.append("unbekannt");
 			}
 			sb.append('.');
 		}

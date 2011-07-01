@@ -50,7 +50,7 @@ public class WhiteNoise implements Event {
 	 * from-to white noise
 	 */
 	public String toString() {
-		return "White Noise.";
+		return "Kommunikation ausgefallen...";
 	}
 
 	/**
@@ -59,9 +59,9 @@ public class WhiteNoise implements Event {
 	public String getDescription(int time) {
 		StringBuilder sb = new StringBuilder();
 		
-		sb.append("Communication system down...\n");
+		sb.append("Kommunikation ausgefallen...\n");
 		// length of communication restored is about 2 secs
-		sb.append(EventList.formatTime(time + length - 2)).append(" - ... Communication system restored.");
+		sb.append(EventList.formatTime(time + length - 2)).append(" - ...Kommunikation wiederhergestellt.");
 		
 		return sb.toString();
 	}

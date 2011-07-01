@@ -38,7 +38,7 @@ public class DataTransfer implements Event {
 	 */
 	@Override
 	public String toString() {
-		return "Data transfer. Data transfer in 5, 4, 3, 2, 1.";
+		return "Datenübertragung. Datenübertragung in 5, 4, 3, 2, 1.";
 	}
 
 	/* (non-Javadoc)

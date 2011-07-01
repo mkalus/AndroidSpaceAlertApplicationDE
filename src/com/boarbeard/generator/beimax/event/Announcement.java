@@ -69,16 +69,16 @@ public class Announcement implements Event {
 	 */
 	public String toString() {
 		switch (type) {
-		case ANNOUNCEMENT_PH1_START: return "Enemy activity detected. Please begin 1st phase.";
-		case ANNOUNCEMENT_PH1_ONEMINUTE: return "1st phase ends in one minute.";
-		case ANNOUNCEMENT_PH1_TWENTYSECS: return "1st phase ends in twenty seconds.";
-		case ANNOUNCEMENT_PH1_ENDS: return "1st phase ends in 5, 4, 3, 2, 1... 2nd phase begins.";
-		case ANNOUNCEMENT_PH2_ONEMINUTE: return "2nd phase ends in one minute.";
-		case ANNOUNCEMENT_PH2_TWENTYSECS: return "2nd phase ends in twenty seconds.";
-		case ANNOUNCEMENT_PH2_ENDS: return "2nd phase ends in 5, 4, 3, 2, 1... 3rd phase begins.";
-		case ANNOUNCEMENT_PH3_ONEMINUTE: return "Operation ends in one minute.";
-		case ANNOUNCEMENT_PH3_TWENTYSECS: return "Operation ends in twenty seconds.";
-		case ANNOUNCEMENT_PH3_ENDS: return "Operation ends in 5, 4, 3, 2, 1. Mission complete.";
+		case ANNOUNCEMENT_PH1_START: return "Feindaktivität geortet. Mit 1. Phase beginnen.";
+		case ANNOUNCEMENT_PH1_ONEMINUTE: return "1. Phase endet in einer Minute.";
+		case ANNOUNCEMENT_PH1_TWENTYSECS: return "1. Phase endet in 20 Sekunden.";
+		case ANNOUNCEMENT_PH1_ENDS: return "1. Phase endet in 5, 4, 3, 2, 1... 2. Phase beginnt.";
+		case ANNOUNCEMENT_PH2_ONEMINUTE: return "2. Phase endet in einer Minute.";
+		case ANNOUNCEMENT_PH2_TWENTYSECS: return "2. Phase endet in 20 Sekunden.";
+		case ANNOUNCEMENT_PH2_ENDS: return "2. Phase endet in 5, 4, 3, 2, 1... 3. Phase beginnt.";
+		case ANNOUNCEMENT_PH3_ONEMINUTE: return "Operation endet in einer Minute.";
+		case ANNOUNCEMENT_PH3_TWENTYSECS: return "Operation endet in 20 Sekunden.";
+		case ANNOUNCEMENT_PH3_ENDS: return "Operation endet in 5, 4, 3, 2, 1... 3. Mission abgeschlossen.";
 		}
 		return "ERROR"; //error
 	}
