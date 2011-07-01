@@ -1,0 +1,50 @@
+﻿<Settings>
+  <Grammar>German</Grammar>
+
+  <CommunicationsDownHeader>Kommunikation ausgefallen...</CommunicationsDownHeader>
+  <CommunicationsDownNoise></CommunicationsDownNoise>
+  <CommunicationsDownFooter>...Kommunikation wiederhergestellt</CommunicationsDownFooter>
+
+  <AnnounceBeginFirstPhase>Feindaktivität geortet. Mit 1. Phase beginnen.</AnnounceBeginFirstPhase>
+  <AnnounceFirstPhaseEndsInOneMinute>1. Phase endet in einer Minute.</AnnounceFirstPhaseEndsInOneMinute>
+  <AnnounceFirstPhaseEndsInTwentySeconds>1. Phase endet in 20 Sekunden.</AnnounceFirstPhaseEndsInTwentySeconds>
+  <AnnounceFirstPhaseEnds>1. Phase beendet.</AnnounceFirstPhaseEnds>
+  <AnnounceSecondPhaseBegins>2. Phase beginnt.</AnnounceSecondPhaseBegins>
+  <AnnounceSecondPhaseEndsInOneMinute>2. Phase endet in einer Minute.</AnnounceSecondPhaseEndsInOneMinute>
+  <AnnounceSecondPhaseEndsInTwentySeconds>2. Phase endet in 20 Sekunden.</AnnounceSecondPhaseEndsInTwentySeconds>
+  <AnnounceSecondPhaseEnds>2. Phase beendet.</AnnounceSecondPhaseEnds>
+  <AnnounceThirdPhaseBegins>3. Phase beginnt.</AnnounceThirdPhaseBegins>
+  <AnnounceThirdPhaseEndsInOneMinute>3. Phase endet in einer Minute.</AnnounceThirdPhaseEndsInOneMinute>
+  <AnnounceThirdPhaseEndsInTwentySeconds>3. Phase endet in 20 Sekunden.</AnnounceThirdPhaseEndsInTwentySeconds>
+  <AnnounceThirdPhaseEnds>3. Phase beendet.</AnnounceThirdPhaseEnds>
+
+  <IncomingData>Eingehende Daten</IncomingData>
+  <DataTransfer>Datenübertragung</DataTransfer>
+
+  <AlertHeader>Alarm!!!</AlertHeader>
+  <InternalThreat>Interne Bedrohung</InternalThreat>
+  <SeriousInternalThreat>Ernsthafte interne Bedrohung</SeriousInternalThreat>
+  <Repeat>Wiederhole</Repeat>
+  <UnconfirmedReport>Unbestätigt:</UnconfirmedReport>
+
+  <TimeTPlus1>Zeit T+1</TimeTPlus1>
+  <TimeTPlus2>Zeit T+2</TimeTPlus2>
+  <TimeTPlus3>Zeit T+3</TimeTPlus3>
+  <TimeTPlus4>Zeit T+4</TimeTPlus4>
+  <TimeTPlus5>Zeit T+5</TimeTPlus5>
+  <TimeTPlus6>Zeit T+6</TimeTPlus6>
+  <TimeTPlus7>Zeit T+7</TimeTPlus7>
+  <TimeTPlus8>Zeit T+8</TimeTPlus8>
+
+  <RedAlertLevel0></RedAlertLevel0>
+  <RedAlertLevel1></RedAlertLevel1>
+  <RedAlertLevel2></RedAlertLevel2>
+  <RedAlertLevel3></RedAlertLevel3>
+
+  <ThreatZoneBlue>Bedrohung in Zone Blau</ThreatZoneBlue>
+  <ThreatZoneRed>Bedrohung in Zone Rot</ThreatZoneRed>
+  <ThreatZoneWhite>Bedrohung in Zone Weiß</ThreatZoneWhite>
+  <SeriousThreatZoneBlue>Ernsthafte Bedrohung in Zone Blau</SeriousThreatZoneBlue>
+  <SeriousThreatZoneRed>Ernsthafte Bedrohung in Zone Rot</SeriousThreatZoneRed>
+  <SeriousThreatZoneWhite>Ernsthafte Bedrohung in Zone Weiß</SeriousThreatZoneWhite>
+</Settings>

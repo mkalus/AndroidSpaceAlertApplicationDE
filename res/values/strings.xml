@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Space Alert Mission Generator</string>
+    <string name="unconfirmed_reports">Unconfirmed Reports</string>
+    <string name="start_mission">Start Mission</string>
+    <string name="start">Start</string>
+    <string name="mission_reset">Reset</string>
+    <string name="mission_new">New</string>
+    <string name="mission_options">Options</string>
+    <string name="mission_type">Type</string>
+    <string name="pref_mission">Mission Preferences</string>
+    <string name="pref_unconfirmedReports_title">Unconfirmed Reports</string>
+    <string name="pref_unconfirmedReports_summary">Whether to allow chance of unconfirmed reports to the mission.</string>
+  	<string name="pref_mission_length_summary">Current approximate mission length in seconds.</string>
+  	<string name="pref_mission_length_title">Mission Length: %1$d</string>   
+  	<string name="pref_threat_difficulty_title">Threat Difficulty: %1$d</string> 
+	<string name="pref_mission_length_dialog_title">Mission Length</string>   
+  	<string name="pref_threat_difficulty_dialog_title">Threat Difficulty</string>   	
+  	<string name="pref_threat_difficulty_summary">Cumulative threat for the mission. (Normal=1, Serious=2)</string>
+  	<string name="mission_about">About</string>
+  	<string name="mission_help">Help</string>
+
+	<string name="mission_random">Random</string>
+  	<string name="mission_first_test_run">First Test Run</string>
+  	<string name="mission_second_test_run">Second Test Run</string>
+  	<string name="mission_simulation_1">Simulation 1</string>
+  	<string name="mission_simulation_2">Simulation 2</string>
+
+</resources>

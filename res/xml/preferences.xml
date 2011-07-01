@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:widget="http://schemas.android.com/apk/res/com.boarbeard">
+	<PreferenceCategory android:title="@string/pref_mission">		
+		<CheckBoxPreference android:key="unconfirmedReportsPreference"
+			android:defaultValue="false"
+			android:title="@string/pref_unconfirmedReports_title"
+			android:summary="@string/pref_unconfirmedReports_summary" />		
+	    <com.boarbeard.widget.SeekBarPreference
+	        android:summary="@string/pref_mission_length_summary" widget:maxValue="840" android:title="@string/pref_mission_length_title" android:key="missionLengthPreference" widget:minValue="540" android:defaultValue="540" android:persistent="true" android:dialogTitle="@string/pref_mission_length_dialog_title"/>				
+	    <com.boarbeard.widget.SeekBarPreference
+	        android:key="threatDifficultyPreference" widget:maxValue="14" android:defaultValue="8" android:summary="@string/pref_threat_difficulty_summary" android:persistent="true" android:dialogTitle="@string/pref_threat_difficulty_dialog_title" android:title="@string/pref_threat_difficulty_title" widget:minValue="1"/>			
+	</PreferenceCategory>
+</PreferenceScreen>
